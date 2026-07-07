@@ -1,0 +1,15 @@
+numpy
+pandas
+opencv-python
+torch
+torchvision
+sentencepiece
+tqdm
+rapidfuzz
+yt-dlp
+srt
+faster-whisper
+matplotlib
+scikit-learn
+jiwer
+sacrebleu
