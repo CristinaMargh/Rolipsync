@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large media/data
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.wav
+*.mp3
+*.npz
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Local/private files
+cookies.txt
+.env
+
+# Generated outputs
+outputs/
+raw/
+audio/
+demo_segments/
+demo_npz/
+demo_live_final/
+sign_guided_experiment/raw/
+sign_guided_experiment/audio/
+sign_guided_experiment/outputs/
