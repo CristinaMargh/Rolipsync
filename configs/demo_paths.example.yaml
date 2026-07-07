@@ -1,0 +1,18 @@
+# Example paths for local or Colab runs.
+root: /content/drive/MyDrive/Licenta/ro_vsr
+
+model:
+  train_py: train_ctc_strong.py
+  spm: spm/ro_vsr.model
+  checkpoint: runs/strong_audio_teacher_whisperx_3000/best.pt
+
+video:
+  id: WuKYvYJb56Y
+  path: sign_guided_experiment/raw/WuKYvYJb56Y_h264.mp4
+
+roi:
+  main_speaker_bbox: "680,120,1120,550"
+  interpreter_bbox: "1450,635,1635,815"
+
+outputs:
+  dir: sign_guided_experiment/outputs
